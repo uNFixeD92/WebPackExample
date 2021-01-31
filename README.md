@@ -27,7 +27,7 @@ esta configuracion webpack fue creada para Crear proyectos FullstackMVC pero con
 ------modules
 - npm init --y
 
-- crear webpack.config.js y configurarlo con :
+- crear webpack.config.cjs y configurarlo con :
 
 **entry   = archivos a convertir**
 **output = archivos convertidos**
@@ -49,7 +49,7 @@ module.exports = {
 
 ```
   "scripts": {
-    "wp": "webpack --config webpack.config.js"
+    "wp": "webpack --config webpack.config.cjs"
   },
 ```
 
