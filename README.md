@@ -79,3 +79,4 @@ timeago.js  `fechas :s  pero nose si lo usare`
 -D `instala esto en package json solo como develpment y no para produccion`
 
 npm   i  webpack webpack-cli html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server  @webpack-cli/init  timeago.js -D
+npm i webpack webpack-cli @webpack-cli/init html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server  timeago.js -D
