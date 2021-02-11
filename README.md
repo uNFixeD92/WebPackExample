@@ -13,19 +13,19 @@ esta configuracion webpack fue creada para Crear proyectos FullstackMVC pero con
 - crear configuracion webpack e testear
 
 # *Guia / Pasos:*
-- crear backend y frontend
----backend
+- crear backend y frontend   
+---backend   
 ------index.js       
-------public        **necesario**
-------src
----frontend
-------index.html
-------app.js         **necesario**
-------UI.js
-------styles
-------services
-------modules
-- npm init --y
+------public        **necesario**  
+------src  
+---frontend  
+------index.html  
+------app.js         **necesario**  
+------UI.js  
+------styles  
+------services  
+------modules  
+- npm init --y  
 
 - crear webpack.config.cjs y configurarlo con :
 
@@ -70,12 +70,16 @@ el comando npm run wp ingresa a package.json y ejecuta 'wp' lo que ejecuta webpa
 
 # fin
 
-### Upgrade (html,css,js con webpack)
-webpack webpack-cli  `webpack basico`
-html-webpack-plugin   `procesa el html`
-css-loader style-loader mini-css-extract-plugin `procesa el css`
-webpack-dev-server @webpack-cli/init  `servidor para ejecutar webpack`
-timeago.js  `fechas :s  pero nose si lo usare`
--D `instala esto en package json solo como develpment y no para produccion`
+### Upgrade (html,css,js con webpack)  
+webpack webpack-cli  `webpack basico`  
+html-webpack-plugin   `procesa el html`  
+css-loader style-loader mini-css-extract-plugin `procesa el css`  
+webpack-dev-server @webpack-cli/init  `servidor para ejecutar webpack`  
+timeago.js  `fechas ,  pero nose si lo usare , creo que no`  
+-D `instala esto en package json solo como develpment y no para produccion`  
 
-npm   i  webpack webpack-cli html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server  @webpack-cli/init  timeago.js -D
+
+# Mi scrip usado 
+```
+npm   i  webpack webpack-cli html-webpack-plugin css-loader     style-loader mini-css-extract-plugin webpack-dev-server  @webpack-cli/init  timeago.js -D
+```
