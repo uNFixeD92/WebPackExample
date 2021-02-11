@@ -78,8 +78,13 @@ webpack-dev-server @webpack-cli/init  `servidor para ejecutar webpack`
 timeago.js  `fechas ,  pero nose si lo usare , creo que no`  
 -D `instala esto en package json solo como develpment y no para produccion`  
 
+<<<<<<< HEAD
 
 # Mi scrip usado 
 ```
 npm   i  webpack webpack-cli html-webpack-plugin css-loader     style-loader mini-css-extract-plugin webpack-dev-server  @webpack-cli/init  timeago.js -D
 ```
+=======
+npm   i  webpack webpack-cli html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server  @webpack-cli/init  timeago.js -D
+npm i webpack webpack-cli @webpack-cli/init html-webpack-plugin css-loader style-loader mini-css-extract-plugin webpack-dev-server  timeago.js -D
+>>>>>>> 3a2e40ac0845e5524375b076584223f6131f61c3
